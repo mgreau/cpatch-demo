@@ -20,4 +20,4 @@ jobs:
       - name: Patch vulnerable image
         uses: mgreau/log4shell-cpatch@main
         with:
-          image: mlinarik/log4j-log4shell-vulnerable-app:latest
+          image: mlinarik/log4j-log4shell-vulnerable-app
